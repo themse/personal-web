@@ -1,7 +1,7 @@
 export const navigation = [
-	{ name: 'Головна', href: '#home', isInternal: true },
-	{ name: 'Послуги', href: '#services', isInternal: true },
-	{ name: 'FAQ', href: '#faq', isInternal: true },
-	{ name: 'Блог', href: '/blog', isInternal: false },
-	{ name: 'Контакти', href: '#contact', isInternal: true },
+	{ label: 'Головна', href: '#home' },
+	{ label: 'Послуги', href: '#services' },
+	{ label: 'FAQ', href: '#faq' },
+	{ label: 'Блог', href: '/blog' },
+	{ label: 'Контакти', href: '#contact' },
 ];

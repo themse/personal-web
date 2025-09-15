@@ -11,9 +11,9 @@ export const Footer = () => {
 	return (
 		<div className="bg-footer border-t border-gray-300">
 			<div className="container mx-auto">
-				<div className="grid gap-8 py-4 md:grid-cols-2 lg:grid-cols-3">
+				<div className="grid gap-8 px-2 py-4 sm:px-0 md:grid-cols-2 lg:grid-cols-3">
 					<div className="flex flex-col gap-y-4">
-						<div className="flex items-center space-x-2">
+						<div className="flex items-center gap-x-2">
 							<Brand />
 						</div>
 						<p className="text-black/80">
@@ -47,9 +47,9 @@ export const Footer = () => {
 					</div>
 				</div>
 
-				<Separator className="my-6" />
+				<Separator className="mx-2 my-6 sm:mx-0" />
 
-				<div className="pb-8 text-center text-sm text-black/60">
+				<div className="px-2 pb-8 text-center text-sm text-black/60 sm:px-0">
 					<p>&copy; 2025 Кабінет лікаря Інни Леп&apos;явко. Всі права захищені.</p>
 				</div>
 			</div>

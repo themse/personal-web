@@ -9,6 +9,7 @@
 
 	--header: #ffffff;
 	--footer: #ffffff;
+	--appointment: var(--color-primary)
 }
 
 .dark {
@@ -17,6 +18,8 @@
 
 	--header: var(--color-primary);
 	--footer: var(--color-primary);
+	--appointment: var(--color-secondary)
+	
 }
 
 @theme inline {
@@ -25,6 +28,7 @@
 
 	--color-header: var(--header);
 	--color-footer: var(--footer);
+	--color-appointment: var(--appointment);
 
 	--color-primary: var(--primary);
 	--color-secondary: var(--secondary);

@@ -9,7 +9,7 @@ type Props = PropsWithChildren<
 
 export const TemplateScaffold = ({ children, header, footer }: Props) => {
 	return (
-		<div className="flex min-h-screen flex-col">
+		<div className="flex min-h-screen min-w-80 flex-col">
 			{header && (
 				<header className="border-border sticky top-0 z-50 border-b border-gray-300">
 					{header}

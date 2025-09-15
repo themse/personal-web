@@ -17,7 +17,11 @@ export const ModeToggle = ({ className }: Props) => {
 	};
 
 	return (
-		<button type="button" onClick={handleToggle} className={cn(className, 'cursor-pointer')}>
+		<button
+			type="button"
+			onClick={handleToggle}
+			className={cn(className, 'cursor-pointer text-black')}
+		>
 			<Icon className="size-7" />
 		</button>
 	);

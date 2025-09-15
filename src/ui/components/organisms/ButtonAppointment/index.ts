@@ -1,0 +1,1 @@
+export { ButtonAppointment } from './ButtonAppointment';
