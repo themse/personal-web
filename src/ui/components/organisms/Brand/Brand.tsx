@@ -19,8 +19,11 @@ export const Brand = () => {
 	}
 
 	return (
-		<Link href="/">
-			<Image src={imgSrc} alt={APP_NAME} width={50} height={50} className="rounded-full" />
-		</Link>
+		<h1>
+			<Link href="/" className="flex items-center gap-x-2">
+				<Image src={imgSrc} alt={APP_NAME} width={50} height={50} className="rounded-full" />
+				<span className="text-secondary text-xl font-bold">Кабінет лікаря</span>
+			</Link>
+		</h1>
 	);
 };

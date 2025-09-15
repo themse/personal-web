@@ -2,8 +2,9 @@
 
 import dynamic from 'next/dynamic';
 
-import { Brand } from '@/components/organisms/Brand';
-
+const Brand = dynamic(() => import('@/components/organisms/Brand').then((module) => module.Brand), {
+	ssr: false,
+});
 const ModeToggle = dynamic(
 	() => import('@/components/molecules/ModeToggle').then((module) => module.ModeToggle),
 	{ ssr: false },

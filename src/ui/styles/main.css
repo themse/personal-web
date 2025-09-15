@@ -8,6 +8,7 @@
 	--secondary: #0197b2;
 
 	--header: #ffffff;
+	--footer: #ffffff;
 }
 
 .dark {
@@ -15,6 +16,7 @@
 	--foreground: #ededed;
 
 	--header: var(--color-primary);
+	--footer: var(--color-primary);
 }
 
 @theme inline {
@@ -22,6 +24,7 @@
 	--color-foreground: var(--foreground);
 
 	--color-header: var(--header);
+	--color-footer: var(--footer);
 
 	--color-primary: var(--primary);
 	--color-secondary: var(--secondary);
